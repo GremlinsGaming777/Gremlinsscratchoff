@@ -1,0 +1,29 @@
+{
+  "name": "gremlins-scratch-off-crypto-lottery",
+  "version": "1.0.0",
+  "description": "A multi-platform scratch-off crypto lottery ticket system with Gremlins Gaming theme",
+  "private": true,
+  "scripts": {
+    "install-all": "npm install && cd scratch-extension && npm install && cd ../browser-extension && npm install && cd ../github-app && npm install && cd ../web-app && npm install && cd ..",
+    "dev": "npm run dev --workspaces",
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces"
+  },
+  "workspaces": [
+    "scratch-extension",
+    "browser-extension",
+    "github-app",
+    "web-app",
+    "shared"
+  ],
+  "keywords": [
+    "gremlins",
+    "crypto",
+    "lottery",
+    "scratch-off",
+    "blockchain"
+  ],
+  "author": "GremlinsGaming777",
+  "license": "MIT"
+}
